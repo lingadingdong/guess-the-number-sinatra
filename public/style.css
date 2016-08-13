@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400italic); /*font-family: 'Josefin Sans', sans-serif;*/
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-image: url("img/light-bg1.png");
+  /*color: white;*/
+  text-align: center;
+  font-size: 22px;
+
+}
+
+h1 {
+  color:purple;
+  font-family: 'Indie Flower', cursive;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.btn {
+  font-size: inherit;
+  color: white;
+  background-color: purple;
+  text-decoration: none; /*this is to remove the underline*/
+  padding: 1em;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+
+.guess {
+  font-size: 2em;
+  display: block;
+  margin: 0 auto 1em;
+
+}
+
+.trophy {
+  height: 200px;
+}
